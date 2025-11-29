@@ -8,6 +8,11 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
   #  - name: gpeye
   #    url-base: https://github.com/GPeye
+
+    # For custom display
+    - name: Linkeway
+      url-base: https://github.com/Linkeway
+
   projects:
    # - name: mario-peripheral-animation
    #   remote: gpeye
@@ -19,5 +24,8 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
+    - name: niceview-dev-art
+      remote: Linkeway
+      revision: main
   self:
     path: boards
