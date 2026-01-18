@@ -26,6 +26,6 @@ manifest:
       import: app/west.yml
     - name: niceview-dev-art
       remote: Linkeway
-      revision: main
+      revision: feat/control_slideshow
   self:
     path: boards
